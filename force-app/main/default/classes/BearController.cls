@@ -42,7 +42,7 @@ public with sharing class BearController {
             FROM Bear__c
             WHERE Name LIKE :searchTerm
             ORDER BY Name
-            LIMIT 50
+            LIMIT 100
         ];
     }
 }
